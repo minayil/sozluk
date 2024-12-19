@@ -10,6 +10,7 @@
 </head>
 <body>
     <h1>Yemek Listesi</h1>
+    <img src="../static/duvar-resimleri-sef-asci-ve-plaka.jpg.jpg" alt="Yemek Resmi">
     {% for gun_adi, yemekler in gunler.items() %}
         <h3 onclick="toggleYemekler('{{ gun_adi }}')">{{ gun_adi }}</h3>
         <div id="yemekler_{{ gun_adi }}" class="yemekler">
