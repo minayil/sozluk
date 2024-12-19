@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <day name="Pazartesi">
+        <meal type="Kahvaltı">Yulaf ezmesi, süt, meyve</meal>
+        <meal type="Öğle">Tavuklu salata, ayran</meal>
+        <meal type="Akşam">Izgara somon, brokoli, pilav</meal>
+    </day>
+    <day name="Salı">
+        <meal type="Kahvaltı">Peynirli omlet, zeytin, ekmek</meal>
+        <meal type="Öğle">Sebzeli makarna</meal>
+        <meal type="Akşam">Fırın tavuk, patates püresi</meal>
+    </day>
+    <day name="Çarşamba">
+        <meal type="Kahvaltı">Menemen, simit</meal>
+        <meal type="Öğle">Köfte, pilav, cacık</meal>
+        <meal type="Akşam">Mercimek çorbası, kısır</meal>
+    </day>
+    <day name="Perşembe">
+        <meal type="Kahvaltı">Kahve, poğaça</meal>
+        <meal type="Öğle">Börek, ayran</meal>
+        <meal type="Akşam">Etli nohut, pilav</meal>
+    </day>
+    <day name="Cuma">
+        <meal type="Kahvaltı">Sütlü mısır gevreği, muz</meal>
+        <meal type="Öğle">Fırın karnıbahar, yoğurt</meal>
+        <meal type="Akşam">Pizza, salata</meal>
+    </day>
+    <day name="Cumartesi">
+        <meal type="Kahvaltı">Pankek, bal, çay</meal>
+        <meal type="Öğle">Tavuklu pilav, turşu</meal>
+        <meal type="Akşam">Spagetti, domates sos</meal>
+    </day>
+    <day name="Pazar">
+        <meal type="Kahvaltı">Kavurma, kahvaltılık soslar</meal>
+        <meal type="Öğle">Kısır, zeytinyağlı enginar</meal>
+        <meal type="Akşam">Bulgur pilavı, zeytinyağlı dolma</meal>
+    </day>
+</menu>

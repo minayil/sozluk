@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XML Görüntüleyici</title>
+    <style>
+        .yemekler {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Yemek Listesi</h1>
+    {% for gun_adi, yemekler in gunler.items() %}
+        <h3 onclick="toggleYemekler('{{ gun_adi }}')">{{ gun_adi }}</h3>
+        <div id="yemekler_{{ gun_adi }}" class="yemekler">
+            <ul>
+                {% for yemek in yemekler %}
+                    <li>{{ yemek.type }}: {{ yemek.content }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endfor %}
+
+    <script>
+        function toggleYemekler(gunAdi) {
+            var yemeklerDiv = document.getElementById('yemekler_' + gunAdi);
+            if (yemeklerDiv.style.display === 'none') {
+                yemeklerDiv.style.display = 'block';
+            } else {
+                yemeklerDiv.style.display = 'none';
+            }
+        }
+    </script>
+    <pre>{{ xml_data | safe }}</pre>  </body>
+</html>
